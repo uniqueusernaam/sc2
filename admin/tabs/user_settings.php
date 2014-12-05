@@ -36,7 +36,7 @@ while ($sql_fetch = mysqli_fetch_assoc($sql_query)) {
                 </option>
             </select>
 
-            <div class="info">Comment privacy by default</div>
+            <div class="info">Comment Visibility</div>
         </div>
         <div class="float-clear"></div>
     </div>
