@@ -22,7 +22,7 @@ while ($sql_fetch = mysqli_fetch_assoc($sql_query)) {
                 <option value="everyone" <?php if ($default_settings['message_privacy'] == "everyone") echo 'selected'; ?>>Everyone</option>
                 <option value="none" <?php if ($default_settings['message_privacy'] == "none") echo 'selected'; ?>>No one</option>
             </select>
-            <div class="info">Message visibility</div>
+            <div class="info">Message privacy by default</div>
         </div>
         <div class="float-clear"></div>
     </div>
@@ -33,7 +33,7 @@ while ($sql_fetch = mysqli_fetch_assoc($sql_query)) {
                 <option value="everyone" <?php if ($default_settings['timeline_post_privacy'] == "everyone") echo 'selected'; ?>>Everyone</option>
                 <option value="admins" <?php if ($default_settings['timeline_post_privacy'] == "admins") echo 'selected'; ?>>Only admins</option>
             </select>
-            <div class="info">Who can post on page's timeline privacy</div>
+            <div class="info">Who can post on page's timeline privacy by default</div>
         </div>
         <div class="float-clear"></div>
     </div>

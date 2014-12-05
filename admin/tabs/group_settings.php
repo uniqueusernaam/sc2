@@ -22,7 +22,7 @@ while ($sql_fetch = mysqli_fetch_assoc($sql_query)) {
                 <option value="members" <?php if ($default_settings['add_privacy'] == "members") echo 'selected'; ?>>Members</option>
                 <option value="admins" <?php if ($default_settings['add_privacy'] == "admins") echo 'selected'; ?>>Admins</option>
             </select>
-            <div class="info">Who can add members to group privacy</div>
+            <div class="info">Who can add members to group privacy by default</div>
         </div>
         <div class="float-clear"></div>
     </div>
@@ -33,7 +33,7 @@ while ($sql_fetch = mysqli_fetch_assoc($sql_query)) {
                 <option value="members" <?php if ($default_settings['timeline_post_privacy'] == "members") echo 'selected'; ?>>Members</option>
                 <option value="admins" <?php if ($default_settings['timeline_post_privacy'] == "admins") echo 'selected'; ?>>Only admins</option>
             </select>
-            <div class="info">Who can post on group's timeline privacy</div>
+            <div class="info">Who can post on group's timeline privacy by default</div>
         </div>
         <div class="float-clear"></div>
     </div>

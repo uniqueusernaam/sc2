@@ -13,7 +13,7 @@ global $config;
         <div class="label float-left">Name</div>
         <div class="input float-left">
             <input type="text" name="site_name" value="<?php echo $config['site_name']; ?>">
-            <div class="info">Enter Site's Name</div>
+            <div class="info">Name of your site</div>
         </div>
         <div class="float-clear"></div>
     </div>
@@ -22,7 +22,7 @@ global $config;
         <div class="label float-left">Title</div>
         <div class="input float-left">
             <input type="text" name="site_title" value="<?php echo $config['site_title']; ?>">
-            <div class="info">Enter Site's title</div>
+            <div class="info">Site's title</div>
         </div>
         <div class="float-clear"></div>
     </div>
@@ -31,7 +31,7 @@ global $config;
         <div class="label float-left">E-mail</div>
         <div class="input float-left">
             <input type="text" name="site_email" value="<?php echo $config['email']; ?>">
-            <div class="info">Site's email. This will be the 'From' email address on the email communication sent to the users.</div>
+            <div class="info">Site's email. All emails to your users will be send from this email.</div>
         </div>
         <div class="float-clear"></div>
     </div>
@@ -108,7 +108,7 @@ global $config;
         <div class="label float-left">Censored words</div>
         <div class="input float-left">
             <input type="text" name="censored_words" value="<?php echo $config['censored_words']; ?>">
-            <div class="info">Words to be censored, multiple entries must be separated by a comma (,)</div>
+            <div class="info">Words to be censored, separated by a comma (,)</div>
         </div>
         <div class="float-clear"></div>
     </div>
@@ -176,7 +176,7 @@ global $config;
                 }
                 ?>
             </select>
-            <div class="info">Maximum number of characters can be used by Users for a Story.
+            <div class="info">Maximum number of characters can be used by Users to post a Story.
             </div>
         </div>
         <div class="float-clear"></div>
@@ -197,7 +197,7 @@ global $config;
                 }
                 ?>
             </select>
-            <div class="info">Maximum number of characters can be used by Users for a Comment.
+            <div class="info">Maximum number of characters can be used by Users to post a Comment.
             </div>
         </div>
         <div class="float-clear"></div>
@@ -218,7 +218,7 @@ global $config;
                 }
                 ?>
             </select>
-            <div class="info">Maximum number of characters can be used by Users for a Message.
+            <div class="info">Maximum number of characters can be used by Users to write a Message.
             </div>
         </div>
         <div class="float-clear"></div>
